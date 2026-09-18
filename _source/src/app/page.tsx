@@ -1,10 +1,10 @@
 import Divider from "./components/divider"
 import AboutMe from "./components/home/about-me"
-import Education from "./components/home/education"
+import Capabilities from "./components/home/capabilities"
 import Experience from "./components/home/experience"
 import FeaturedWork from "./components/home/featured-work"
 import HeroSection from "./components/home/hero-section"
-import ProjectOverview from "./components/home/project-overview"
+import CTASection from "./components/ui/cta-section"
 
 const page = () => {
   return (
@@ -13,13 +13,13 @@ const page = () => {
       <Divider/>
       <AboutMe/>
       <Divider/>
+      <Capabilities/>
+      <Divider/>
       <FeaturedWork/>
       <Divider/>
       <Experience/>
       <Divider/>
-      <Education/>
-      <Divider/>
-      <ProjectOverview/>
+      <CTASection/>
       <Divider/>
     </main>
   )
