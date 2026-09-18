@@ -44,7 +44,7 @@ const Header = () => {
             type="button"
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
-            className="md:hidden flex items-center justify-center w-10 h-10 rounded-full border border-primary/10"
+            className="md:hidden flex items-center justify-center w-10 h-10 rounded-full border border-primary/10 outline-none focus-visible:ring-[3px] focus-visible:ring-ring/50 focus-visible:border-ring"
             onClick={() => setOpen((v) => !v)}
           >
             {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
